@@ -1,3 +1,11 @@
+---
+layout: "opentelekomcloud"
+page_title: "OpenTelekomCloud: opentelekomcloud_rts_stack_v1"
+sidebar_current: "docs-opentelekomcloud-resource-rts-stack-v1"
+description: |-
+  Provides a OpenTelekomCloud RTS Stack resource.
+---
+
 # opentelekomcloud_rts_stack_v1_
 Provides an Open Telekom Cloud Stack resource.
 
@@ -61,17 +69,25 @@ The following arguments are supported:
 
 
 * `stack_name` - (Required) Specifies the stack name. The value must meet the regular expression rule (^[a-zA-Z][a-zA-Z0-9_.-]{0,254}$).
+
 * `stack_id` - (Required) Specifies the stack UUID.
+
 * `template` - (Required) Specifies the template. The template content must use the json syntax.
+
 * `environment` - (Optional) Specifies the environment information about the stack.
+
 * `files` - (Optional) Specifies files used in the environment.
+
 * `parameters` - (Optional) Specifies parameter information of the stack.
+
 * `timeout_mins` - (Optional) Specifies the timeout duration.
+
 * `disable_rollback` - (Optional) Specifies whether to perform a rollback if the creation fails.
 
 ## Attributes Reference
 The following attributes are exported:
 
 * `id` - (Required) Specifies the stack UUID..
+
 * `links` - (Required) Specifies the stack description.
 
