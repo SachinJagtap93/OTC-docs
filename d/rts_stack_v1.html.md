@@ -3,7 +3,7 @@ layout: "opentelekomcloud"
 page_title: "OpenTelekomCloud: opentelekomcloud_rts_stack_v1"
 sidebar_current: "docs-opentelekomcloud-datasource-rts-stack-v1"
 description: |-
-  Get information on an OpenTelekomCloud VPC.
+  Get information on an OpenTelekomCloud RTS.
 ---
 
 # opentelekomcloud_rts_stack_v1
@@ -61,8 +61,6 @@ The following attributes are exported:
 * `timeout_mins` - Specifies the timeout duration.
 
 * `status` - Specifies the stack status.
- 
-* `tenant_id` - Specifies the tenant UUID.
  
 * `name` - Specifies the stack name.
  
