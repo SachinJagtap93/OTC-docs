@@ -87,7 +87,7 @@ The following arguments are supported:
 ## Attributes Reference
 The following attributes are exported:
 
-* `id` - Specifies the stack UUID..
+* `id` - Specifies the stack UUID.
 
 * `links` - Specifies the stack description.
 
